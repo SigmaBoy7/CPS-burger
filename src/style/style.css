@@ -1,0 +1,132 @@
+@import url(fonts.css);
+
+html {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #F8F8F8;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+address{
+    font-style: normal;
+}
+
+.burger{
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 320px;
+    height: 100%;
+    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.20), -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+}
+
+.burger__container{
+    padding: 23px 24px 0px 24px;
+}
+
+.burger__top{
+    display: flex;
+}
+.burger__button:hover{
+    transition: filter 1s;
+    filter: contrast(200%);
+}
+
+.burger__button:first-child{
+    margin-right: 16px;
+}
+
+.burger__button:last-child{
+    margin-left: 78px;
+}
+
+.burger__option-list{
+    margin-top: 50px;
+}
+
+.burger__option-list .burger__option-item{
+    font-family: "TT Lakes Medium", "sans-serif";
+    font-size: 16px;
+}
+
+.burger__option-list .burger__option-item:hover{
+    transition: opacity 0.5s;
+    opacity: 0.7;
+}
+
+
+.burger__option-list .burger__option-item:not(:last-child){
+    margin-bottom: 32px;
+}
+
+.burger__option-list .burger__option-item:first-child a{
+    color: #7E7E82;
+}
+
+.burger__option-list .burger__option-item:first-child::before{
+    content: url("../assets/highlight/highlight.svg");
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 122px;
+}
+
+.burger__footer{
+    margin-top: 268px;
+}
+.burger__contacts-buttons{
+    margin-bottom: 16px;
+}
+.burger__contacts-button:not(:last-child){
+    margin-right: 16px;
+}
+
+.burger__email{
+    margin-bottom: 12px;
+}
+
+.burger__email a{
+    font-family: "TT Lakes Medium", "sans-serif";
+    font-size: 16px;
+}
+
+.burger__number{
+    margin-bottom: 40px;
+    font-family: "TT Lakes Bold", "sans-serif";
+    font-size: 26px;
+}
+
+.burger__languages button{
+    font-family: "TT Lakes Medium", "sans-serif";
+    font-size: 16px;
+}
+
+.burger__languages .burger__language-button--active{
+    color: #7E7E82;
+}
