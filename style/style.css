@@ -98,10 +98,17 @@ address{
 }
 
 .burger__footer{
-    margin-top: 268px;
+    margin-top: 238px;
 }
 .burger__contacts-buttons{
     margin-bottom: 16px;
+}
+.burger__contacts-buttons{
+    margin-bottom: 16px;
+    max-height: 40px;
+}
+.burger__contacts-button{
+    max-height: 40px;
 }
 .burger__contacts-button:not(:last-child){
     margin-right: 16px;
