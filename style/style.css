@@ -42,7 +42,8 @@ address{
     left: 0;
     top: 0;
     width: 320px;
-    height: 100%;
+    height: 100vh;
+    overflow-y: auto;
     box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.20), -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
 }
 
@@ -98,8 +99,10 @@ address{
 }
 
 .burger__footer{
-    margin-top: 238px;
+    margin-top: 50px;
 }
+
+
 .burger__contacts-buttons{
     margin-bottom: 16px;
 }
